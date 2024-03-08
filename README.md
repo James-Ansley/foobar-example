@@ -1,3 +1,3 @@
 # FooBar
 
-An example project for the CS399 Workshop that has cool cowsay features!
+An example project for the CS399 Workshop that has cool custom cowsay features!
