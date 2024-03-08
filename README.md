@@ -1,3 +1,3 @@
 # FooBar
 
-CS399 Workshop
+An example project for the CS399 Workshop!
