@@ -5,17 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "foobar"
 version = "0.0.1"
-description = ""
+description = "A cool cowsay project"
 
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 license = { file = "LICENSE" }
-classifiers = [
-    "Development Status :: 1 - Planning",
-    "Topic :: Utilities",
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-]
 dynamic = ["dependencies"]
 
 [tool.setuptools.dynamic]
@@ -24,5 +18,5 @@ dependencies = { file = ["requirements.txt"] }
 [tool.setuptools.packages.find]
 where = ["src"]
 
- [project.scripts]
- foobar = "foobar:__main__.main"
+[project.scripts]
+foobar = "foobar:__main__.main"
